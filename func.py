@@ -1,7 +1,11 @@
-def multiply(*num):
+def multiply(numbers):
+    number_list = numbers.split(',')
+    number_int_list = [int(n) for n in number_list]
     result = 1
-    for n in num:
+    for n in number_int_list:
         result *= n
     return result
 
-print(multiply(3,5,2))
+numbers = input('Dime todos los numeros que quieres multiplicar (separados por comas):')
+
+print(multiply(numbers))
