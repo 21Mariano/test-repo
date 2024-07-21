@@ -6,6 +6,6 @@ def multiply(numbers):
         result *= n
     return result
 
-numbers = input('Dime todos los numeros que quieres multiplicar (separados por comas):')
+numbers = input('Dime los numeros que quieres multiplicar (separados por comas):')
 
 print(multiply(numbers))
