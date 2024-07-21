@@ -8,4 +8,4 @@ def multiply(numbers):
 
 numbers = input('Dime todos los numeros que quieres multiplicar (separados por comas):')
 
-print(multiply(numbers))
+print(f"El resultado es: {multiply(numbers)}")
